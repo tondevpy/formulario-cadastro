@@ -1,0 +1,47 @@
+body{
+    background: rgb(211, 211, 211);
+}
+h1{
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#containerItems{
+    margin-top: 150px;
+    background-color: #00000070;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+#containerItems input{
+    margin: 10px;
+    display: block;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background: #00000000;
+    border-bottom: 1px solid black;
+}
+#cadastrar{
+    padding: 10px;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(53, 52, 52);
+    border-radius: 10px;
+}
+#cadastrar:hover{
+    transition: 1s;
+    background: black;
+}
+
+#containerItems input::placeholder {
+    color: rgb(255, 255, 255);
+}
